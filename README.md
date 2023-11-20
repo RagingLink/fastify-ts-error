@@ -6,6 +6,7 @@ yarn add fastify && yarn add -D @types/node typescript
 yarn run tsc --init
 ```
 Change "target": "es2016" in tsconfig.json to "es2020" per https://fastify.dev/docs/latest/Reference/TypeScript/#getting-started
+
 Create index.ts (from the getting started section in the above link)
 ```ts
 import fastify from 'fastify'
